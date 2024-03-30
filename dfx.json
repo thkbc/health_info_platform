@@ -1,0 +1,22 @@
+{
+    "canisters": {
+        "health_info_platform": {
+            "main": "src/health_info_platform/main.mo",
+            "type": "motoko"
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": ""
+        }
+    },
+    "dfx": "0.15.2",
+    "networks": {
+        "local": {
+            "bind": "",
+            "type": "ephemeral"
+        }
+    },
+    "output_env_file": ".env",
+    "version": 1
+}

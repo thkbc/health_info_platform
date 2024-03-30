@@ -1,7 +1,7 @@
 {
     "canisters": {
         "health_info_platform": {
-            "main": "src/health_info_platform/main.mo",
+            "main": "src/health_info_platform_backend/main.mo",
             "type": "motoko"
         }
     },
